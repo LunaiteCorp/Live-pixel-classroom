@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lunaite.jnesta.MainActivity">
+
+    <LinearLayout
+        android:backgroundTint="@android:color/black"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="386dp"
+            android:background="@mipmap/ic_launcher_round" />
+
+        <Button
+            android:id="@+id/ic1"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:tag="1"
+            android:textSize="20sp"
+            android:text="Set Wallpaper" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
